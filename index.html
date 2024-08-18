@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>MySpendsmart</title>
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        body {
+            background-image: url("bgimage.png");
+            background-position: sticky;
+        }
+        .navbar-logo img {
+            
+            height: 50px;
+        }
+
+        /* CSS for the navigation bar */
+        .navbar {
+            position: sticky;
+            top: 0;
+            z-index: 999;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #0a0320;
+            padding: 10px;
+        }
+
+        .navbar-logo {
+            margin-right: 20px;
+        }
+
+        .navbar-menu {
+            display: flex;
+        }
+
+        .navbar-menu li {
+            list-style-type: none;
+            margin-right: 10px;
+        }
+
+        .navbar-menu li a {
+            color: white;
+            text-decoration: none;
+            padding: 5px;
+        }
+
+        .navbar-menu li a:hover {
+            background-color: #004d33;
+        }
+        .center {
+            
+            text-align: center;
+            margin-top: 100px;
+            color: white;
+            font-size: 50px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .button-container {
+            margin-top: 20px;
+        }
+
+        .button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 25px;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 5px;
+            width: 150px; /* Add this line to set a fixed width for the buttons */
+        }
+        .button:hover {
+            background-color: #004d33;
+            color: white;
+        }
+            /* Add your desired activity styles here */
+        
+        .button-get-started {
+            background-color: rgba(255, 192, 203, 0.5);
+            color: white;
+        }
+
+        .button-explore-more {
+            background-color: transparent;
+            border: 2px solid white;
+            color: white;
+        }
+    .service-container {
+
+        display: flex;
+        justify-content: space-around;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        background-color:  #0a0320;
+        padding-bottom: 100px;
+    }
+    
+        .service {
+            background-color: #190a4d;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            text-align: center;
+            margin: 2px; /* Add this line to create space between service divs */
+            margin-top: -50px; /* Add this line to adjust the margin-top value */
+        }
+        .service:hover {
+            transform: translateY(-10px);
+        }
+
+        .service {
+            transition: transform 0.3s ease;
+        }
+
+
+        
+        .about-container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 100px;
+            margin-bottom: 100px;
+            background-color: #070324;
+            padding-bottom: 100px;
+            border-radius: 10px;
+            margin: 95px;
+            height: 400px;
+        }
+
+        .about-info {
+            color: white;
+            padding: 40px;
+            width: 50%;
+        }
+
+        .about-image {
+            width: 50%;
+            border-radius: 10px;
+        }
+
+        .about-image img {
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <img src="img.jpg-removebg-preview.png" alt="Logo">
+        </div>
+        <ul class="navbar-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+    <div class="center"></div>
+    <div class="center">
+        <h1>Spend Smartly</h1>
+        <h5>With US</h5>
+        <div class="button-container">
+            <button class="button button-get-started">Get Started</button>
+            <button class="button button-explore-more">Explore More</button>
+        </div>
+    </div>
+    <div class="service-container">
+        <div class="service">
+            <h2>Service 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat tempore voluptas nemo. Officia animi cupiditate commodi nisi magni ex reiciendis accusamus consectetur ipsum dolor, atque voluptatem quaerat ab voluptate at.</p>
+        </div>
+        <div class="service">
+            <h2>Service 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum corporis ea enim nobis illo, eaque assumenda nam voluptatem laboriosam impedit rerum provident, porro, recusandae quod amet non quia ratione delectus.</p>
+        </div>
+        <div class="service">
+            <h2>Service 3</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium distinctio fuga asperiores molestiae consectetur blanditiis repellat voluptates ipsa minus error dolorem quibusdam accusamus laudantium ut labore, temporibus doloremque veniam debitis!</p>
+        </div>
+        <div class="service">
+            <h2>Service 3</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque consectetur minus enim iure molestiae hic. Adipisci molestias cupiditate, esse repudiandae tempora aliquam architecto voluptas nulla. Et, optio! Fugit, iure dolorem!</p>
+        </div>
+    </div>
+
+
+    
+<div class="about-container">
+    <div class="about-info">
+        <h2>About US</h2><br><br>
+        <h4>Hii I am Abc</h4><br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna id aliquet tincidunt, velit nunc tincidunt nunc, ac lacinia velit nisl id nunc. Nulla facilisi. Sed euismod, urna id aliquet tincidunt, velit nunc tincidunt nunc, ac lacinia velit nisl id nunc. Nulla facilisi.</p>
+    </div>
+    <div class="about-image">
+        <img src="Screenshot 2024-08-18 013456.png" alt="Profile Picture">
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    const aboutInfo = document.querySelector('.about-info');
+    const aboutImage = document.querySelector('.about-image');
+    const teammates = [
+        {
+            name: 'Teammate 1',
+            info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna id aliquet tincidunt, velit nunc tincidunt nunc, ac lacinia velit nisl id nunc. Nulla facilisi. Sed euismod, urna id aliquet tincidunt, velit nunc tincidunt nunc, ac lacinia velit nisl id nunc. Nulla facilisi.',
+            image: 'Screenshot_2024-08-18_011516-removebg-preview.png'
+        },
+        {
+            name: 'Teammate 2',
+            info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna id aliquet tincidunt, velit nunc tincidunt nunc, ac lacinia velit nisl id nunc. Nulla facilisi. Sed euismod, urna id aliquet tincidunt, velit nunc tincidunt nunc, ac lacinia velit nisl id nunc. Nulla facilisi.',
+            image: 'Screenshot 2024-08-18 013456.png'
+        },
+        {
+            name: 'Teammate 3',
+            info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna id aliquet tincidunt, velit nunc tincidunt nunc, ac lacinia velit nisl id nunc. Nulla facilisi. Sed euismod, urna id aliquet tincidunt, velit nunc tincidunt nunc, ac lacinia velit nisl id nunc. Nulla facilisi.',
+            image: 'Screenshot 2024-08-18 013456.png'
+        }
+    ];
+    let currentTeammateIndex = 0;
+
+    function showNextTeammate() {
+        const currentTeammate = teammates[currentTeammateIndex];
+        aboutInfo.innerHTML = `
+            <h2>About ${currentTeammate.name}</h2><br><br>
+            <h4>Hii I am ${currentTeammate.name}</h4><br>
+            <p>${currentTeammate.info}</p>
+        `;
+        aboutImage.innerHTML = `
+            <img src="${currentTeammate.image}" alt="Profile Picture">
+        `;
+        currentTeammateIndex = (currentTeammateIndex + 1) % teammates.length;
+    }
+
+    setInterval(showNextTeammate, 5000);
+    
+</script>
